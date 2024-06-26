@@ -1,4 +1,4 @@
-# Ethereum Counter DApp
+# Ethereum ATM Contract
 
 ## Overview
 
