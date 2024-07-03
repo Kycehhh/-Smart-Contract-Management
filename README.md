@@ -1,63 +1,47 @@
-# Ethereum ATM Contract
+# Exercise Tracker
 
 ## Overview
 
-This project showcases a decentralized application (DApp) built on the Ethereum blockchain using Solidity for smart contracts and React.js for the frontend. The DApp enables users to connect their MetaMask wallet, interact with a counter smart contract on Ethereum test networks, view contract details, deposit funds, and withdraw funds.
+This project implements an Exercise Tracker smart contract on the Ethereum blockchain, allowing users to record and retrieve details of their exercise sessions.
 
-## Smart Contract Capabilities
 
-The deployed smart contract for this DApp includes the following functions:
+## Description
 
-- **getBalance**: Returns the current balance of the smart contract.
-- **deposit**: Allows users to deposit ETH into the smart contract.
-- **withdraw**: Allows the owner to withdraw ETH from the smart contract.
-- **viewDetails**: Provides the owner's address and the current balance of the smart contract.
+This smart contract enables users to add entries for exercises they have performed along with the timestamp of the session. It provides a simple interface to interact with the contract functions using a web frontend built with React and ethers.js.
 
-## Frontend Functionality
-
+## Getting Started
+### Installing
 ### Setup Instructions
 
-To get the code running on your computer after cloning the GitHub repository, follow these steps:
-
-1. Navigate to the project directory and install dependencies:
-
+1. Clone the repository:
    ```bash
-   npm install
+   git clone https://github.com/qeewpi/metacrafters-function-frontend
    ```
    
-2. Open two additional terminals in your VS code.
-
-3. In the second terminal, start the Hardhat development network:
-
+2. Navigate to the project directory:
 ```bash
-npx hardhat node
+cd SCM-Starter
 ```
 
-4. In the third terminal, deploy the smart contract to the local network:
+## Smart Contract Deployment
+1. Deploying with Remix:
+- Open Remix IDE (Remix Ethereum IDE).
+- Create a new file ExerciseTracker.sol and paste the smart contract code.
+- Compile the smart contract using the Solidity compiler.
+- Deploy the smart contract using the Deploy & Run Transactions plugin.
+- Note down the deployed contract address for interaction in the frontend.
 
+## Executing Program
+1. Install dependencies:
+   
 ```bash
-   npx hardhat run --network localhost scripts/deploy.js
+npm install
 ```
 
-5. Back in the first terminal, start the frontend development server:
-
+2. Start React develoopment server:
 ```bash
-   npm run dev
+npm run dev
 ```
-
-6. Open your browser and navigate to http://localhost:3000 to view the application.
-
-## Using the DApp
-To interact with the Ethereum Counter DApp:
-
-* Connect your MetaMask wallet to the DApp.
-* View the current contract balance stored in the smart contract.
-* Deposit funds by clicking the "Deposit" button.
-* Withdraw funds by clicking the "Withdraw" button (only available to the owner).
-* View contract details by clicking the "View Contract Details" button.
-
-## Assistance 
-For common issues or troubleshooting, please refer to the README.md file.
 
 ## Author
 Allen Kyle Sabilala  
