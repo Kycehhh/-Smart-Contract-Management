@@ -15,7 +15,7 @@ This smart contract enables users to add entries for exercises they have perform
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/qeewpi/metacrafters-function-frontend
+   [git clone https://github.com/qeewpi/metacrafters-function-frontend](https://github.com/Kycehhh/-Smart-Contract-Management.git)
    ```
    
 2. Navigate to the project directory:
